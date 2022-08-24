@@ -51,7 +51,6 @@
 	{% comment %} Always show code of conduct. {% endcomment %}
         <li><a href="{{ relative_root_path }}{% link CODE_OF_CONDUCT.md %}">Code of Conduct</a></li>
 
-        {% if site.kind == "lesson" %}
 	{% comment %} Show setup instructions. {% endcomment %}
         <li><a href="{{ relative_root_path }}{% link setup.md %}">Setup</a></li>
 
@@ -73,7 +72,6 @@
           </ul>
         </li>
         {% endif %}
-	{% endif %}
 
 	{% comment %} Show extras for lessons or if this is the main workshop-template repo (where they contain documentation). {% endcomment %}
 	{% if site.kind == "lesson" %}
