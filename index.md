@@ -351,9 +351,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
-
-{% include schedule.html %}
+{% include syllabus.html %}
 
 <hr/>
 
@@ -371,5 +369,5 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 
 <h2 id="setup">Setup</h2>
-{% include setup.md %}
 
+See <a href="{{ relative_root_path }}{% link setup.md %}">setup instructions</a>
