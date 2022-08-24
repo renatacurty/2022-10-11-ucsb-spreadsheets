@@ -107,6 +107,12 @@ Blanks (most applications) and NA (for R) are good choices. White et al, 2013, e
 
 ## <a name="formatting"></a> Using formatting to convey information 
 
+As a rule of thumb, formatting should never replace semantics. Create codes and dictionaries to convey meaning and allow interpretation of your dataset. Some may think colors can make data processing and cleaning decisions more visual, but they can compromise the data. Why?
+
+* 1) There are so many colors from the palette that can be easily distinguished and stand out in your dataset;
+* 2) Using colors to convey meaning poses an accessibility barrier for color-blind people;
+* 3) Colors and other formatting (e.g., bold) may not be carried out when the file is converted or opened in different software versions. 
+
 **Example**: highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.
 
 ![formatting](../fig/bad-formatting.png)
@@ -122,7 +128,7 @@ Blanks (most applications) and NA (for R) are good choices. White et al, 2013, e
 
 **Solution**: If you’re not careful, formatting a worksheet to be more aesthetically pleasing can compromise your computer’s ability to
 see associations in the data. Merged cells will make your data unreadable by statistics software. Consider restructuring your data in
-such a way that you will not need to merge cells to organize your data.
+such a way that you will not need to merge cells to organize your data. Also, if you save a workbook in another file format, such as .csv, the styling will be lost anyways.
 
 
 ## <a name="units"></a> Placing comments or units in cells
