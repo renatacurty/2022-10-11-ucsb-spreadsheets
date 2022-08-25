@@ -13,11 +13,7 @@ keypoints:
 > ## Things You’ll Need To Complete This Tutorial
 > #### Spreadsheet Software
 > To work through this tutorial you will need access to a spreadsheet program.
-> Many computers come with a pre-installed spreadsheet program like Excel. macOS users who use Apple’s Numbers application should note that it does not contain some of the features (particularly data validation) that we will be using. Please use LibreOffice or Microsoft Excel instead.
-
-> If you do not have a spreadsheet program, install one using the instructions
-> in the link below.
-> * [Instructions to install a spreadsheet program.](../setup.html)
+> Many computers come with a pre-installed spreadsheet program like Excel. macOS users who use Apple’s Numbers application should note that it does not contain some of the features (particularly data validation) that we will be using. You may also install Libre Office for free or already have MS Excel installed on your computer. But instead, we will be using Google Sheets available through Google Apps.
 >
 {: .prereq}
 
@@ -42,7 +38,7 @@ In this lesson, we’re going to talk about:
 Many spreadsheet programs are available. We will use Microsoft Excel in our examples.
 Although it is not open source software it is very widely available and used.
 
-Free spreadsheet programs such as LibreOffice are available.
+Free spreadsheet programs such as Google Sheets, LibreOffice are available.
 The functionality of these may differ from Excel, but in general they can be used to perform similar tasks.
 
 ## Problems with Spreadsheets
