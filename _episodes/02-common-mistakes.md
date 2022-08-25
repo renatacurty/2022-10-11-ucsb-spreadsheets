@@ -135,7 +135,7 @@ such a way that you will not need to merge cells to organize your data. Also, if
 
 **Example**: Some of your informants only irrigate their plots at certain times of the year. You've added this information as notes directly into the cell with the data. 
 
-**Solution**: Most analysis software can't see Excel or LibreOffice comments, and would be confused by comments placed within your data
+**Solution**: Most analysis software can't see/read comments, and would be confused by comments placed within your data
 cells. As described above for formatting, create another field if you need to add notes to cells. Similarly, don’t include units in
 cells: ideally, all the measurements you place in one column should be in the same unit, but if for some reason they aren’t, create
 another field and specify the units the cell is in.
