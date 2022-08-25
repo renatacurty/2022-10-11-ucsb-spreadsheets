@@ -23,15 +23,15 @@ Even if we are not facing constraints from the software, as a researcher we ofte
 It is also possible that the nature of the data contained in the table allows us to place additional restrictions on the acceptable values for cells in a column.
 For example a column recording age in years should be numeric, greater than 0 and is unlikely to be greater than 120.
 
-Excel allows us to specify a variety of data validations to be applied to cell contents.
+Google Sheets allows us to specify a variety of data validations to be applied to cell contents.
 If the validation fails, an error is raised and the data we entered does not go into the particular cell.
-In addition to providing validation when we enter data, Excel allows us to add validations to data that has already been entered.
+In addition to providing validation when we enter data, Google Sheets allows us to add validations to data that has already been entered.
 The validation is not applied retrospectively, so that data are removed.
 Instead, if a particular cell would fail the validation check a triangle is placed in the top left corner of the cell as a warning.
 
 We will be working with a couple of examples of data validation
 rules but many others exist. For an overview of data validation rules
-available in Excel, check out the [Excel support page on data validation](https://support.office.com/en-us/article/Apply-data-validation-to-cells-29FECBCC-D1B9-42C1-9D76-EFF3CE5F7249). 
+available in Google Sheets, check out the [support page on data validation](https://support.google.com/appsheet/answer/10107325?hl=en&ref_topic=10102053#:~:text=Data%20validation%20rules%20allow%20you,to%20constrain%20user%20entered%20values). 
 
 We will look at two examples: 
 
@@ -54,15 +54,15 @@ here we will assume that there are no families with greater than 30 members.
 
 1\. Select the `no_membrs` column.
 
-2\. In Excel on the `Data` tab select `Data Tools` and then `Data Validation` or `Validation Tools` (depending on your version of Excel). The following popout will appear: 
+2\. In Google Sheets on the `Data` tab select and then `Data Validation`. The following popout will appear: 
 
-![Image of data validation tab in Excel](../fig/data-validation-tab.png)
+![Image of data validation tab in Google Sheets](../fig/data-validation-tab-gs.png)
 
 In Libre Office on the `Data` tab select `Validity...` the following popup will appear:
 
 ![Image of data validation tab in LibreOffice](../fig/data-validation-tab-LibreOffice.png)
 
-3\. In Excel, select 'Whole number' from the `Allow` drop down options.
+3\. In Google Sheets, select 'Whole number' from the `Allow` drop down options.
 
 In Libre Office choose `Allow: Whole Numbers` and then `Data: valid range`.
  
