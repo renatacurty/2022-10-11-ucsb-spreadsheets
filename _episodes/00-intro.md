@@ -12,8 +12,8 @@ keypoints:
 
 > ## Things You’ll Need To Complete This Tutorial
 > #### Spreadsheet Software
-> To work through this tutorial you will need access to a spreadsheet program.
-> Many computers come with a pre-installed spreadsheet program like Excel. macOS users who use Apple’s Numbers application should note that it does not contain some of the features (particularly data validation) that we will be using. You may also install Libre Office for free or already have MS Excel installed on your computer. But instead, we will be using Google Sheets available through Google Apps. If you are willing to explore the same content using Excel or Libre Office you may refer to the Carpentry official version of this workhop [https://datacarpentry.org/spreadsheets-socialsci](https://datacarpentry.org/spreadsheets-socialsci).
+> To work through this tutorial you will need access to a spreadsheet program. We will be using Google Sheets available through Google Apps to go through the curriculum.
+> Many computers come with a pre-installed spreadsheet program like Excel. macOS users who use Apple’s Numbers application should note that it does not contain some of the features (particularly data validation) that we will be using. You may also install Libre Office for free or already have MS Excel installed on your computer. If you are willing to explore the same content using Excel or Libre Office you may refer to the Carpentry official version of this workhop [https://datacarpentry.org/spreadsheets-socialsci](https://datacarpentry.org/spreadsheets-socialsci).
 >
 {: .prereq}
 
@@ -35,7 +35,7 @@ In this lesson, we’re going to talk about:
 
 ### Spreadsheet programs
 
-Many spreadsheet programs are available. We will use Microsoft Excel in our examples.
+Many spreadsheet programs are available. 
 Although it is not open source software it is very widely available and used.
 
 Free spreadsheet programs such as Google Sheets, LibreOffice are available.
@@ -92,9 +92,6 @@ statistical analysis program. We will show you how to use some features of
 spreadsheet programs to check your data quality along the way and produce
 preliminary summary statistics.
 
-In this lesson, we will assume that you are most likely using Excel as
-your primary spreadsheet program - there are other programs with similar functionality but Excel seems
-to be the most commonly used.
 
 In this lesson we're going to talk about:
 
