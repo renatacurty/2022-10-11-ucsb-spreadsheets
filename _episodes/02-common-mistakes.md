@@ -160,39 +160,7 @@ that are excessively long. Including the units in the field names avoids confusi
 
 **Examples**  
 
-<table align = "left" style = "width =50%; border: 1px solid black;">
-<tr>
-	<td> <b>Good Name</b></td> <br />
-	<td> <b>Good Alternative </b> </td><br />
-	<td> <b>Avoid </b></td><br />
-</tr>
-<tr>
-	<td> wall_type </td>
-	<td> WallType </td>
-	<td> wall type </td>
-</tr>
-<tr>
-	<td> longitude </td>
-	<td> GpsLongitude </td>
-	<td> gps:Longitude </td>	
-</tr>	
-<tr>
-	<td> gender </td>
-	<td> gender </td>	
-	<td> M/F </td>
-</tr>
-<tr>
-	<td> Informant_01 </td>
-	<td> first_informant</td>
-	<td> 1st Inf</td>
-</tr>
-<tr>
-	<td> age_18 </td>
-	<td> years18</td>
-	<td> 18years</td>
-</tr>
-</table>
-¬
+![problematic field names](../fig/problematic-field.png)
 
 ## <a name="special"></a> Using special characters in data
 
