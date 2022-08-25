@@ -160,6 +160,8 @@ that are excessively long. Including the units in the field names avoids confusi
 
 **Examples**  
 
+**Examples**  
+
 <table align = "left" style = "width =50%; border: 1px solid black;">
 <tr>
 	<td> <b>Good Name</b></td> <br />
@@ -194,8 +196,8 @@ that are excessively long. Including the units in the field names avoids confusi
 </table>
 
 ## <a name="special"></a> Using special characters in data
->
->
+
+
 **Example**: You treat your spreadsheet program as a word processor when writing notes, for example copying data directly from Word or
 other applications.
 
