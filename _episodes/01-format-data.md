@@ -132,13 +132,6 @@ out the [Social Sciences workshop data
 page](http://www.datacarpentry.org/socialsci-workshop/data).
 {: .callout}
 
-> ## LibreOffice Users
-> The default for LibreOffice is to treat tabs, commas, and semicolons as delimiters.
-> This behavior can cause problems with both the data for this lesson and other data
-> you might want to use. This can be fixed when opening LibreOffice by deselecting
-> the "semicolons" and "tabs" checkboxes.
-{: .callout}
-
 > ## Exercise
 >
 > We're going to take a messy version of the SAFI data and describe how we would clean it up.
