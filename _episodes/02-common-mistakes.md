@@ -99,7 +99,7 @@ subsequent calculations or analyses. For example, the average of a set of number
 **Solution**: One common practice is to record unknown or missing data as -999, 999, or 0. Many statistical programs will not recognize
 that these are intended to represent missing (null) values. How these values are interpreted will depend on the software you use to
 analyze your data. It is essential to use a clearly defined and consistent null indicator.
-Blanks (most applications) and NA (for R) are good choices. White et al, 2013, explain good choices for indicating null values for different software applications in their article:
+Blanks (most applications) and NA (for R) are good choices. White et al. (2013), explain good choices for indicating null values for different software applications in their article:
 [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution.
 
 ![White et al.](../fig/white_table_1.jpg)
