@@ -28,7 +28,7 @@ default spreadsheet file format (`*.xls` or `*.xlsx`) - isn't a good idea. Why?
 - Finally, more journals and grant agencies are requiring you
   to deposit your data in a data repository, and most of them require more reusable and interoperable formats.
   
-- The above points in proprietary software also apply to open data formats used by LibreOffice. These formats are not static and do not get parsed the same way by different software packages.
+- The above points in proprietary software also apply to open data formats used by LibreOffice and Google Sheets native format (`*.Gsheet`). These formats are not static and do not get parsed the same way by different software packages.
   
 As an example of inconsistencies in data storage, do you remember how we talked about how spreasheet programs stores dates earlier? It turns out that 
 there are multiple defaults for different versions of the software, and you can switch between them all. So, say you’re
