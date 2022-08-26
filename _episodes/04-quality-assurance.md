@@ -45,14 +45,7 @@ We will look at two examples:
 Looking again at the [clean version of the SAFI
 dataset](https://ndownloader.figshare.com/files/11492171), we see that there are
 several columns with numeric data. One example of this is the column `no_membrs`
-representing the number of people in the household. We would expect this always
-to be a positive integer, and so we should reject values like `1.5` and `-8` as
-entry errors. We would also reject values over a certain maximum - for example
-an entry like `90` is probably the result of the researcher inputting `9` and
-their finger slipping and also hitting the `0` key. It is up to you as the
-researcher to decide what a reasonable maximum value would be for your data,
-here we will assume that there are no families with greater than 30 members.
-
+representing the number of people in the household. We would assume that there are no families with greater than 30 members. Can can assure there won't be issues with data entry in this column?
 
 1\. Select the `no_membrs` column.
 
@@ -64,12 +57,20 @@ here we will assume that there are no families with greater than 30 members.
 
 Your data table will now not allow you to enter a value that violates
 the data validation rule you have created. To test this out, try 
-to enter a new value into the `no_membrs` column that is not valid. Try typing in a value below or above the values specificied and see what happens.
+to enter a new value above 30 in one of the cells for this collumn and see what happens.
 
-You can also customize the resulting message to be more informative by entering
+> ## Tip
+> While setting validation rules you can customize the resulting message to be more informative by entering
 your own message by selecting to show validation help text in `Appearance`.
+> You can also choose to let invalid data result in a warning rather than reject input, by selecting that option. 
+{: .callout}
 
-You can also allow invalid data to result in a warning rather than reject input, by selecting that option. 
+
+### Integers and integers within a range
+
+We have covered data validation for simple number ranges, but what if we expect that a cell will only take integers or integers within a range? 
+
+
 
 > ## Exercise
 > Apply a new data validation rule to one of the other numeric 
