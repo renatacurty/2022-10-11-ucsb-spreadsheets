@@ -12,8 +12,8 @@ keypoints:
 
 > ## Things You’ll Need To Complete This Tutorial
 > #### Spreadsheet Software
-> To work through this tutorial you will need access to a spreadsheet program. We will be using Google Sheets available through Google Apps to go through the curriculum.
-> Many computers come with a pre-installed spreadsheet program like Excel. macOS users who use Apple’s Numbers application should note that it does not contain some of the features (particularly data validation) that we will be using. You may also install Libre Office for free or already have MS Excel installed on your computer. If you are willing to explore the same content using Excel or Libre Office you may refer to the Carpentry official version of this workhop [https://datacarpentry.org/spreadsheets-socialsci](https://datacarpentry.org/spreadsheets-socialsci).
+> To work through this tutorial you will need access to a spreadsheet program. We will be using Google Sheets available through Google Apps.
+> Many computers come with a pre-installed spreadsheet program like Excel. If you are willing to explore the same content using Excel or Libre Office you may refer to the Carpentry official version of this workhop [https://datacarpentry.org/spreadsheets-socialsci](https://datacarpentry.org/spreadsheets-socialsci).
 >
 {: .prereq}
 
@@ -35,11 +35,14 @@ In this lesson, we’re going to talk about:
 
 ### Spreadsheet programs
 
-Many spreadsheet programs are available. 
-Although it is not open source software it is very widely available and used.
+Many spreadsheet programs are available and the functionality of these may differ. We chose to work with Google Sheets because it:
 
-Free spreadsheet programs such as Google Sheets, LibreOffice are available.
-The functionality of these may differ from Excel, but in general they can be used to perform similar tasks.
+- Offers all the basic functionalities we will be exploring during this workshop
+- Is free and highly used for collaboration
+- Eliminates frictions due to software versioning, and won't present differences in shortcuts and capabilities
+- It can be used both online and offline in the event of lack of connectivity [learn more](https://support.google.com/docs/answer/6388102?hl=en&co=GENIE.Platform%3DDesktop). 
+
+We won't be covering all functionalities of Google Sheets or the differences between this application and other spreadsheet programs. For an overview on the differences between Google Sheets and Excel visit the [Google Space Learning Center](https://support.google.com/a/users/answer/9331278?hl=en)
 
 ## Problems with Spreadsheets
 
