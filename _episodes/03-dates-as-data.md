@@ -18,9 +18,9 @@ Dates in spreadsheets are often stored in a single column.
 
 While this seems like a logical way to record dates when you are entering them, or visually reviewing data, it's not actually a best practice for preparing data for analysis.
 
-When working with data, your goal is to have as little ambiguity as possible. Ambiguity can creep into your data when working with dates when there are regional variations either in your observations and when you or your team might be working with different versions or suites of software products (e.g., LibreOffice, Microsoft Excel, Gnumeric).
+When working with data, your goal is to have as little ambiguity as possible. Ambiguity can creep into your data when working with dates when there are regional variations either in your observations and when you or your team might be working with different versions or suites of software products (e.g., Google Sheets, LibreOffice, Microsoft Excel, Gnumeric).
 
-To avoid ambiguity between regional differences in date formatting and compatibility across spreadsheet software programs, a good practice is to divide dates into components in different columns - DAY, MONTH, and YEAR. 
+To avoid ambiguity between regional differences in date formatting and compatibility across spreadsheet software programs, a good practice is to divide dates into components in different columns - DAY (DD), MONTH (MM), and YEAR (YYYY). 
 
 When working with dates it's also important to remember that functions are guaranteed to be compatible only within the same family of software products. If you need to export your data and conserve the timestamps, you are better off handling dates using one of the solutions discussed below than the single column method.
 
@@ -30,18 +30,24 @@ One of the other reasons dates can be tricky is that most spreadsheet programs h
 
 ## Dates stored as integers
 
-The first thing you need to know is that as other spreadsheets programs, Google Sheets stores dates as numbers - see the last column in the above figure. This serial number represents the number of days from December 31, 1899. In the example, July 2, 2014 is stored as the serial number 41822. Inputs to `DATE` must be numbers - if a string or a reference to a cell containing a string is provided, the `#VALUE!` error will be returned. 
+The first thing you need to know is that as most spreadsheets programs, Google Sheets stores dates as numbers - see the last column in the above figure. This serial number represents the number of days from December 31, 1899. In the example, July 2, 2014 is stored as the serial number 41822. 
 
 > ## More on Google Sheets Dates
 
-(FIX ME!)
+> - Inputs to `DATE` must always be numbers - if a string or a reference to a cell containing a string is provided, the `#VALUE!` error will be returned.
+> - DATE will silently recalculate numeric dates which fall outside of valid month or day ranges. For example, DATE(1969,13,1), which specifies the illegal month 13, will create a date of 1/1/1970. Similarly, DATE(1969,1,32), which specifies the non-existent 32nd day of January, will create a date of 2/1/1969.
+> - DATE will silently truncate decimal values input into the function, e.g. a month of 12.75 will be interpreted as 12.
+> - Google Sheets uses the 1900 date system. The first date is 1/1/1900.
+> - Between 0 and 1899, Google Sheets adds that value to 1900 to calculate the year. For example, DATE(119,2,1) will create a date of 2/1/2019. 
+> - For years 1900 to 9999, Google Sheets will use that value as the year. For example, DATE(2019,1,2) will create a date of 1/2/2019. 
+> - For years less than 0 or greater than 10,000, Google Sheets will return the #NUM! error value 
 {: .callout}
 
 Using functions we can  add days, months or years to a given date.
 Say you had a research plan where you needed to conduct interviews with a
 set of informants every ninety days for a year.
 
-In our example above, in a new cell you can  type:
+In our example above, in a new cell you can type:
 
 =B2+90
 
