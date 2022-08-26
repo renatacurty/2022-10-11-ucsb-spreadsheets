@@ -76,7 +76,7 @@ Let's say we want to determine that we will only accept integers for the column 
 
 1. Select the `rooms` column and then, `Data`, followed by `Data validation`
 2. Choose the custom formula option and type `=IF(G2=INT(G2),True,False)`
-3. Make sure the cell range selection is correct (starting from the first cell specificed in the formula) and save it
+3. Make sure you have selected the correct data range (starting from the first cell specificed in the formula) and save it
  
 This function is instructing Google Sheets to give you a test result if the G2 column has an integer number or not. If any decimal numbers are entered you will get a warning.
 
