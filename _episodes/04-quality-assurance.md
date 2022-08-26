@@ -38,7 +38,8 @@ available in Google Sheets, check out the [support page on data validation](http
 We will look at two examples: 
 
 1. Restricting data to a numeric range
-2. Restricting data to entries from a list
+2. Restricting data yo integers and integers within a range
+3. Restricting data to entries from a list
 
 ### Restricting data to a numeric range
 
@@ -62,15 +63,23 @@ to enter a new value above 30 in one of the cells for this collumn and see what 
 > ## Tip
 > While setting validation rules you can customize the resulting message to be more informative by entering
 your own message by selecting to show validation help text in `Appearance`.
-> You can also choose to let invalid data result in a warning rather than reject input, by selecting that option. 
+> You can also choose to let invalid data result in a warning rather than reject input, by selecting that option. Rejecting an input will result on an empty cell after a "there is a problem" warning, but it won't blank cells that had invalid data before the validation was applied to the column.
 {: .callout}
 
 
 ### Integers and integers within a range
 
-We have covered data validation for simple number ranges, but what if we expect that a cell will only take integers or integers within a range? 
+We have covered data validation for simple number ranges, but what if we expect that a cell will only take integers or integers within a range?
+Let's say we want to determine that we will only accept integers for the column `rooms`. How can we accomplish that? In Excel, we could choose from data validation options `whole number`, but this option is not available on Google Sheets. Still, we can apply this validation type using a conditional function:
 
+- Select the `rooms` column and then, `Data`, followed by `Data validation`
+- Choose the custom formula option ans type `=IF(E1=INT(G1),True,False)`
 
+This function is instructing Google Sheets to give you a test result if the G1 column has an integer number or not. If decimal numbers are entered you will get a warning.
+
+> ## Challenge
+> How could you expand this formula to only consider integers within a specific range?
+{: .challenge}
 
 > ## Exercise
 > Apply a new data validation rule to one of the other numeric 
