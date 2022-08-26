@@ -127,7 +127,7 @@ example data collected in January of multiple years with data collected in Febru
 {: .challenge}
 
 ## Historical data
-Google Sheets is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
+As Excel, Google Sheets is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
 from before and after this date, it will translate only the post-1900 dates into its internal format, thus resulting in mixed data. If you’re working with historic data, be extremely careful with your dates!
 
 {% include links.md %}
