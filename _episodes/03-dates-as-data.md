@@ -47,7 +47,7 @@ Using functions we can  add days, months or years to a given date.
 Say you had a research plan where you needed to conduct interviews with a
 set of informants every ninety days for a year.
 
-In our example above, in a new cell you can type:
+In our example above, in a new cell you could type:
 
 =B2+90
 
@@ -61,23 +61,24 @@ And it would return
 When you enter a date into a spreadsheet it looks like a date although the spreadsheet program may
 display different text from what you input. It does this to be 'helpful' but it often is not. 
 
-For example if you enter '7/12/88' into your
+For example if you enter '7/12/88' into a
 Excel spreadsheet it may display as '07/12/1988' (depending on your version of Excel). These
 are different ways of formatting the same date.
 
 Different countries also write dates differently. If you are in the UK or Brazil, for example, you will interpret
 the date above as the 7th day of December, however a researcher from the US will interpret the same entry as the 12th day of July. This regional variation is handled automatically by your
 spreadsheet program so that when you are typing in dates they appear as you would expect. If you
-try to type in a US format date into a UK version of Excel, it may or may not be treated as a
+try to type in a US format date into a UK or BR version of Excel, it may or may not be treated as a
 date.
 
 This regional variation is one good reason to treat dates, not as a single data point, but as
-three distinct pieces of data (month, day, and year). Separating dates into their component parts
+three distinct pieces of data. Separating dates into their component parts
 will avoid this confusion, while also giving the added benefit of allowing you to compare, for
 example data collected in January of multiple years with data collected in February of multiple years.
 
-> ## Which format 
-
+> ## ISO 8601
+> If you choose keeping all date elements in one cell, to avoid regional conflicts, we recommend you use the International Standard Organization (ISO) 8601 format for dates which represents date and time by starting with the year, followed by the month, the day, the hour, the minutes, seconds and milliseconds. For example, 2020-07-10 15:00:00.000, represents the 10th of July 2020 at 3 p.m. (in local time as there is no time zone offset specified. Remember to note the use of the standard in your dataset documentation.
+{: .callout}
 
 
 > ## Separating dates into components
