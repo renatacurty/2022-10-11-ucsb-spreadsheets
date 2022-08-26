@@ -12,8 +12,9 @@ keypoints:
 
 > ## Things You’ll Need To Complete This Tutorial
 > #### Spreadsheet Software
-> To work through this tutorial you will need access to a spreadsheet program. We will be using Google Sheets available through Google Apps.
+> To work through this tutorial you will need access to a spreadsheet program. We will be using Google Sheets available through Google Apps. 
 > Many computers come with a pre-installed spreadsheet program like Excel. If you are willing to explore the same content using Excel or Libre Office you may refer to the Carpentry official version of this workhop [https://datacarpentry.org/spreadsheets-socialsci](https://datacarpentry.org/spreadsheets-socialsci).
+> [Follow these steps](https://support.google.com/docs/answer/9330961?hl=en) to access Google Sheets. 
 >
 {: .prereq}
 
