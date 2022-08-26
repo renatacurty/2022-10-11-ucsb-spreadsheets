@@ -70,20 +70,25 @@ your own message by selecting to show validation help text in `Appearance`.
 ### Integers and integers within a range
 
 We have covered data validation for simple number ranges, but what if we expect that a cell will only take integers or integers within a range?
-Let's say we want to determine that we will only accept integers for the column `rooms`. How can we accomplish that? In Excel, we could choose from data validation options `whole number`, but this option is not available on Google Sheets. Still, we can apply this validation type using a conditional function:
+Let's say we want to determine that we will only accept integers for the column `rooms`. How can we accomplish that? In Excel, we could choose from data validation options `whole number`, but this option is not available on Google Sheets. Still, we can apply this restriction using a conditional function:
 
-- Select the `rooms` column and then, `Data`, followed by `Data validation`
-- Choose the custom formula option ans type `=IF(G2=INT(G2),True,False)`
+**[FIXME]**
 
-This function is instructing Google Sheets to give you a test result if the G1 column has an integer number or not. If any decimal numbers are entered you will get a warning.
+1. Select the `rooms` column and then, `Data`, followed by `Data validation`
+2. Choose the custom formula option and type `=IF(G2=INT(G2),True,False)`
+
+This function is instructing Google Sheets to give you a test result if the G2 column has an integer number or not. If any decimal numbers are entered you will get a warning.
 
 > ## Challenge
+> Part 1
+>
+> Part 2
 > How could you expand this formula to only consider integers within a specific range?
 > 
 {: .challenge}
 
 > ## Exercise
-> Apply a new data validation rule to one of the other numeric 
+> Apply a new data validation rule of your choice to one of the other numeric 
 > columns in this data table. Discuss with the person sitting next
 > to you what a reasonable rule would be for the column you've selected. Be sure to create an informative input message. 
 {: .challenge}
@@ -108,6 +113,8 @@ We have now provided a restriction that will be validated each time we try and
 enter data into the selected cells. When a cell in this column is selected, a drop-down arrow will appear.
 When you click the arrow, you will be able to select a value from your list.
 If you type a value which is not on the list, you will get an error message. This not only prevents data input errors, but also makes it easier and faster to enter data. 
+
+**FIXME** EXAMPLE WITH A LIST OF VALUES FROM ANOTHER TAB 
 
 > ## Exercise
 > Apply a new data validation rule to one of the other categorical 
