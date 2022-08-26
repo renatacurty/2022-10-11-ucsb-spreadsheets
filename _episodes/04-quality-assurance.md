@@ -110,7 +110,6 @@ enter data into the selected cells. When a cell in this column is selected, a dr
 When you click the arrow, you will be able to select a value from your list.
 If you type a value which is not on the list, you will get an error message. This not only prevents data input errors, but also makes it easier and faster to enter data. 
 
-**FIXME** EXAMPLE WITH A LIST OF VALUES FROM ANOTHER TAB 
 
 > ## Exercise
 > Apply a new data validation rule to one of the other categorical 
