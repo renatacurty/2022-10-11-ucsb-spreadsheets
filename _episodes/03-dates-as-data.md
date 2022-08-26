@@ -91,7 +91,7 @@ example data collected in January of multiple years with data collected in Febru
 > location (either day first `DD_MM_YEAR`, or month first `MM_DD_YEAR`).
 >
 > Extract the components of the date to new columns. For this we
-> can use the built in Excel functions:
+> can use the built in functions:
 >
 > `=MONTH()`    
 > `=DAY()`  
@@ -129,7 +129,7 @@ example data collected in January of multiple years with data collected in Febru
 {: .challenge}
 
 ## Historical data
-Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
-from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data. If you’re working with historic data, be extremely careful with your dates!
+Google Sheets is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
+from before and after this date, it will translate only the post-1900 dates into its internal format, thus resulting in mixed data. If you’re working with historic data, be extremely careful with your dates!
 
 {% include links.md %}
