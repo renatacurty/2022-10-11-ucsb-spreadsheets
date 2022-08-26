@@ -36,11 +36,9 @@ The first thing you need to know is that as most spreadsheets programs, Google S
 
 > - Inputs to `DATE` must always be numbers - if a string or a reference to a cell containing a string is provided, the `#VALUE!` error will be returned.
 > - DATE will silently recalculate numeric dates which fall outside of valid month or day ranges. For example, DATE(1969,13,1), which specifies the illegal month 13, will create a date of 1/1/1970. Similarly, DATE(1969,1,32), which specifies the non-existent 32nd day of January, will create a date of 2/1/1969.
-> - DATE will silently truncate decimal values input into the function, e.g. a month of 12.75 will be interpreted as 12.
 > - Google Sheets uses the 1900 date system. The first date is 1/1/1900.
-> - Between 0 and 1899, Google Sheets adds that value to 1900 to calculate the year. For example, DATE(119,2,1) will create a date of 2/1/2019. 
-> - For years 1900 to 9999, Google Sheets will use that value as the year. For example, DATE(2019,1,2) will create a date of 1/2/2019. 
-> - For years less than 0 or greater than 10,000, Google Sheets will return the #NUM! error value 
+> - Between 0 and 1899, Google Sheets adds that value to 1900 to calculate the year. 
+> - For years less than 1900 or greater than 10,000, Google Sheets will return the #NUM! error value 
 {: .callout}
 
 Using functions we can  add days, months or years to a given date.
