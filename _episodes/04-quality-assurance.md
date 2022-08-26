@@ -22,7 +22,7 @@ In any one column, the spreadsheets software will not warn us if we start to ent
 Even if we are not facing constraints from the software, as a researcher we often anticipate that all data in one column will be of a certain type.
 It is also possible that the nature of the data contained in the table allows us to place additional restrictions on the acceptable values for cells in a column. For example a column recording age in years should be numeric, greater than 0 and is unlikely to be greater than 120.
 
-Similar to Excel, Google Sheets allows us to specify a variety of data validations to be applied to cell contents.
+As Excel, Google Sheets allows us to specify data validations to be applied to cell contents.
 If the validation fails, an error is raised and the data we entered does not go into the particular cell.
 In addition to providing validation when we enter data, Google Sheets allows us to add validations to data that has already been entered.
 The validation is not applied retrospectively, so that data are removed.
@@ -32,7 +32,7 @@ Instead, if a particular cell would fail the validation check a triangle is plac
 
 
 We will be working with a couple of examples of data validation
-rules but many others exist. For an overview of data validation rules
+rules but many others exist. For an overview of data validation options and rules
 available in Google Sheets, check out the [support page on data validation](https://support.google.com/appsheet/answer/10107325?hl=en&ref_topic=10102053#:~:text=Data%20validation%20rules%20allow%20you,to%20constrain%20user%20entered%20values). 
 
 We will look at two examples: 
@@ -56,60 +56,20 @@ here we will assume that there are no families with greater than 30 members.
 
 1\. Select the `no_membrs` column.
 
-2\. In Google Sheets on the `Data` tab select and then `Data Validation`. The following popout will appear: 
+2\. On the `Data` tab select and then `Data Validation`. The following popout will appear: 
 
 ![Image of data validation tab in Google Sheets](../fig/data-validation-tab-gs.png)
 
-In Libre Office on the `Data` tab select `Validity...` the following popup will appear:
-
-![Image of data validation tab in LibreOffice](../fig/data-validation-tab-LibreOffice.png)
-
-3\. In Google Sheets, select 'Whole number' from the `Allow` drop down options.
-
-In Libre Office choose `Allow: Whole Numbers` and then `Data: valid range`.
- 
-4\. The window content will change.
-The value in the data box will say 'between' and `Minimum` and `Maximum` boxes will be provided for you to specify an allowed range. 
-In Excel you will see:
-
-![Image of data validation tab for number rules in Excel](../fig/data-validation-numbers.png)
-
-In LibreOffice, you will see:
-
-![Image of data validation tab in LibreOffice](../fig/data-validation-numbers-LibreOffice.png)
-
-
-5\. Fill in the minimum and maximum values that make sense for your data and click `Ok`. Here we will choose a minimum of 1 and a maximum of 30.
+3\. Select the `Number` for criteria and set the range.  Here we will choose a minimum of 1 and a maximum of 30.
 
 Your data table will now not allow you to enter a value that violates
 the data validation rule you have created. To test this out, try 
-to enter a new value into the `no_membrs` column that is not valid.
-The following error box will appear in Excel: 
-
-![Image of error message for inputing invalid data in Excel](../fig/error-invalid-data.png)
-
-The following error box will appear in LibreOffice: 
-
-![Image of error message for inputing invalid data in LibreOffice](../fig/error-invalid-data-LibreOffice.png)
+to enter a new value into the `no_membrs` column that is not valid. Try typing in a value below or above the values specificied and see what happens.
 
 You can also customize the resulting message to be more informative by entering
-your own message in the `Input Message` tab when creating a data validation rule.
-In Excel, you will see:
+your own message by selecting to show validation help text in `Appearance`.
 
-![Image of Input Message tab in Excel](../fig/input_message.png)
-
-In LibreOffice, you will see:
-
-![Image of Input Message tab in LibreOffice](../fig/input_message_LibreOffice.png)
-
-You can also allow invalid data to result in a warning rather than an error by modifying the `Style`
-option on the `Error Alert` tab. For Excel you will see:
-
-![Image of Error Alert tab in Excel](../fig/error_alert.png)
-
-In LibreOffice, you will see:
-
-![Image of Error Alert tab in LibreOffice](../fig/error_alert_LibreOffice.png)
+You can also allow invalid data to result in a warning rather than reject input, by selecting that option. 
 
 > ## Exercise
 > Apply a new data validation rule to one of the other numeric 
