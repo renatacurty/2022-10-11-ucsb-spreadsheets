@@ -60,10 +60,10 @@ Your data table will now not allow you to enter a value that violates
 the data validation rule you have created. To test this out, try 
 to enter a new value above 30 in one of the cells for this collumn and see what happens.
 
-> ## Tip
+> ## Tip: Customizing warning messages
 > While setting validation rules you can customize the resulting message to be more informative by entering
 your own message by selecting to show validation help text in `Appearance`.
-> You can also choose to let invalid data result in a warning rather than reject input, by selecting that option. Rejecting an input will result on an empty cell after a "there is a problem" warning, but it won't blank cells that had invalid data before the validation was applied to the column.
+> You can also choose to let invalid data result in a warning rather than reject input, by selecting that option. Rejecting an input will result on an empty cell after a "there is a problem" warning.
 {: .callout}
 
 
@@ -73,12 +73,13 @@ We have covered data validation for simple number ranges, but what if we expect 
 Let's say we want to determine that we will only accept integers for the column `rooms`. How can we accomplish that? In Excel, we could choose from data validation options `whole number`, but this option is not available on Google Sheets. Still, we can apply this validation type using a conditional function:
 
 - Select the `rooms` column and then, `Data`, followed by `Data validation`
-- Choose the custom formula option ans type `=IF(E1=INT(G1),True,False)`
+- Choose the custom formula option ans type `=IF(G1=INT(G2),True,False)`
 
-This function is instructing Google Sheets to give you a test result if the G1 column has an integer number or not. If decimal numbers are entered you will get a warning.
+This function is instructing Google Sheets to give you a test result if the G1 column has an integer number or not. If any decimal numbers are entered you will get a warning.
 
 > ## Challenge
 > How could you expand this formula to only consider integers within a specific range?
+> 
 {: .challenge}
 
 > ## Exercise
