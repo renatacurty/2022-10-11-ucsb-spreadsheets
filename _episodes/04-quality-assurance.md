@@ -87,32 +87,11 @@ right option from the list.
 
 1\. Select the `respondent_wall_type` column.
 
-2\. In Excel, on the `Data` tab select `Data Tools` and then `Data Validation` or `Validation Tools` (depending on your version of Excel). The following popout will appear: 
+2\. On the `Data` tab select `Data Validation` and then choose "List of items`
 
-![Image of data validation tab in Excel](../fig/data-validation-tab.png)
+3\. Type a list of all the values that you want to be accepted in this column, separated by a comma (with no spaces). For us this will be "grass, muddaub, burntbricks, sunbricks, cement". 
 
-In LibreOffice, on the `Data` tab select `Validity...`
-
-![Image of data validation tab in Excel](../fig/data-validation-tab-LibreOffice.png)
-
-3\. In Excel, select `List` from the `Allow` drop-down menu, and in LibreOffice, choose the `List` option.
-
-4\. In Excel, the window will change to include a `Source` box, you will see,
-
-![Image of selecting a range of values to allow in Excel](../fig/select-range-of-values.png)
-
-In LibreOffice, you will see,
-
-![Image of selecting a range of values to allow in LibreOffice](../fig/select-range-of-values-LibreOffice.png)
-
-5\. Type a list of all the values that you want to be accepted in this column, separated by a comma (with no spaces). For us this will be "grass, muddaub, burntbricks, sunbricks, cement". 
-
-In LibreOffice, your entries of grass, muddaub, burntbricks, sunbricks and cement should be on new lines as shown below
-
-![Image of filled in range of values to allow in LibreOffice](../fig/filled-range-of-values-LibreOffice.png)
-
-
-6\. In Excel, create a meaningful input message, then click OK. In LibreOffice, there is no need to create an input message.
+4\. Create a meaningful input message, then save it.
 
 We have now provided a restriction that will be validated each time we try and
 enter data into the selected cells. When a cell in this column is selected, a drop-down arrow will appear.
@@ -144,10 +123,6 @@ If you type a value which is not on the list, you will get an error message. Thi
 > in the `no_membrs` column before applying our data validation
 > rule, that cell would not be flagged with a warning. 
 > 
-> In some versions of Excel, you can click in the `Data` tab on 
-> `Data Validation` and then `Circle invalid data`. This will 
-> put red circles around invalid data entries. Note that it can be a bit slow with large data files.
->
 > When using spreadsheets for data entry, it is a good idea to set up
 > data validation rules for each column when you set up your 
 > spreadsheet (i.e. before you enter any data). 
