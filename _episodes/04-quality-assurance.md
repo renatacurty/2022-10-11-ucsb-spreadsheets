@@ -73,7 +73,7 @@ We have covered data validation for simple number ranges, but what if we expect 
 Let's say we want to determine that we will only accept integers for the column `rooms`. How can we accomplish that? In Excel, we could choose from data validation options `whole number`, but this option is not available on Google Sheets. Still, we can apply this validation type using a conditional function:
 
 - Select the `rooms` column and then, `Data`, followed by `Data validation`
-- Choose the custom formula option ans type `=IF(G1=INT(G2),True,False)`
+- Choose the custom formula option ans type `=IF(G2=INT(G2),True,False)`
 
 This function is instructing Google Sheets to give you a test result if the G1 column has an integer number or not. If any decimal numbers are entered you will get a warning.
 
