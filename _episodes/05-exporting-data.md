@@ -12,32 +12,29 @@ keypoints:
 - "Exporting data from spreadsheets to formats like CSV or TSV puts it in a format that can be used consistently by most programs."
 ---
 
-Storing the data you're going to work with for your analyses in Excel
-default file format (`*.xls` or `*.xlsx` - depending on the Excel
-version) isn't a good idea. Why?
+Storing the data you're going to work with for your analyses in the
+default spreadsheet file format (`*.xls` or `*.xlsx`) - isn't a good idea. Why?
 
 - Because it is a proprietary format, and it is possible that in
   the future, technology won’t exist (or will become sufficiently
   rare) to make it inconvenient, if not impossible, to open the file.
 
 - Other spreadsheet software may not be able to open files
-  saved in a proprietary Excel format.
+  saved in a proprietary format.
 
-- Different versions of Excel may handle data
+- Different versions of the same spreadsshet software may handle data
   differently, leading to inconsistencies.
 
 - Finally, more journals and grant agencies are requiring you
-  to deposit your data in a data repository, and most of them don't
-  accept Excel format. It needs to be in one of the formats
-  discussed below.
+  to deposit your data in a data repository, and most of them require more reusable and interoperable formats.
   
-- The above points also apply to other formats such as open data formats used by LibreOffice. These formats are not static and do not get parsed the same way by different software packages.
-
-As an example of inconsistencies in data storage, do you remember how we talked about how Excel stores dates earlier? It turns out that 
+- The above points in proprietary software also apply to open data formats used by LibreOffice. These formats are not static and do not get parsed the same way by different software packages.
+  
+As an example of inconsistencies in data storage, do you remember how we talked about how spreasheet programs stores dates earlier? It turns out that 
 there are multiple defaults for different versions of the software, and you can switch between them all. So, say you’re
 compiling Excel-stored data from multiple sources. There’s dates in each file- Excel interprets them as their own internally consistent
-serial numbers. When you combine the data, Excel will take the serial number from the place you’re importing it from, and interpret it
-using the rule set for the version of Excel you’re using. Essentially, you could be adding errors to your data, and it wouldn’t
+serial numbers. When you combine the data, the software take the serial number from the place you’re importing it from, and interpret it
+using the rule set for the software you’re using to work on the spreadsheet. Essentially, you could be adding errors to your data, and it wouldn’t
 necessarily be flagged by any data cleaning methods if your ranges overlap.
 
 Storing data in a universal, open, and static format will help deal with this problem. Try tab-delimited (tab separated values
@@ -50,24 +47,20 @@ it's a
 good format to work with for maximum portability and endurance. Most spreadsheet programs can save to delimited text formats like CSV
 easily, although they may give you a warning during the file export.
 
-To save a file you have opened in Excel in CSV format:
+To export it as a CSV, choose `file`, then `download` and select the format.
 
-1. From the top menu select `File` and `Save as`.
-2. In the `Format` field, from the list, select `Comma Separated Values` (`*.csv`).
-3. Double check the file name and the location where you want to save it and hit `Save`.
 
-An important note for backwards compatibility: you can open CSV files in Excel!
+***FIXME*** ADD INFORMATION ABOUT TRACKING HISTORY?
 
-![Saving an Excel file to CSV](../fig/excel-to-csv.png)
 
 > ## A note on R and `xls`
 > 
 > There are R packages that can read `xls` files (as well as
-> Google spreadsheets). It is even possible to access different
+> Google sheets .Gsheets). It is even possible to access different
 > worksheets in the `xls` documents. However, because these 
 > packages parse data tables from proprietary and non-static
 > software, there is no guarantee that they will continue to 
-> work on new versions of Excel. Exporting your data to CSV or TSV
+> work on new versions. Exporting your data to CSV or TSV
 > format is much safer and more reproducible.
 {: .callout}
 
