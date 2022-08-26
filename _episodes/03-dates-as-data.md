@@ -30,7 +30,7 @@ One of the other reasons dates can be tricky is that most spreadsheet programs h
 
 ## Dates stored as integers
 
-The first thing you need to know is that Google Sheets stores dates as numbers - see the last column in the above figure. This serial number represents the number of days from December 31, 1899. In the example, July 2, 2014 is stored as the serial number 41822. Inputs to `DATE` must be numbers - if a string or a reference to a cell containing a string is provided, the `#VALUE!` error will be returned. 
+The first thing you need to know is that as other spreadsheets programs, Google Sheets stores dates as numbers - see the last column in the above figure. This serial number represents the number of days from December 31, 1899. In the example, July 2, 2014 is stored as the serial number 41822. Inputs to `DATE` must be numbers - if a string or a reference to a cell containing a string is provided, the `#VALUE!` error will be returned. 
 
 > ## More on Google Sheets Dates
 
