@@ -33,7 +33,7 @@ One of the other reasons dates can be tricky is that most spreadsheet programs h
 The first thing you need to know is that as most spreadsheets programs, Google Sheets stores dates as numbers - see the last column in the above figure. This serial number represents the number of days from December 31, 1899. In the example, July 2, 2014 is stored as the serial number 41822. 
 
 > ## More on Google Sheets Dates
-
+> 
 > - Inputs to `DATE` must always be numbers - if a string or a reference to a cell containing a string is provided, the `#VALUE!` error will be returned.
 > - DATE will silently recalculate numeric dates which fall outside of valid month or day ranges. For example, DATE(1969,13,1), which specifies the illegal month 13, will create a date of 1/1/1970. Similarly, DATE(1969,1,32), which specifies the non-existent 32nd day of January, will create a date of 2/1/1969.
 > - Google Sheets uses the 1900 date system. The first date is 1/1/1900.
@@ -47,12 +47,17 @@ set of informants every ninety days for a year.
 
 In our example above, in a new cell you could type:
 
+~~~
 =B2+90
+~~~
+{: .code}
 
 And it would return
 
+~~~
 30-Sep
-
+~~~
+{: .output}
 
 ## Regional date formatting
 
