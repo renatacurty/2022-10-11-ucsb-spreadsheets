@@ -130,4 +130,7 @@ example data collected in January of multiple years with data collected in Febru
 As Excel, Google Sheets is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
 from before and after this date, it will translate only the post-1900 dates into its internal format, thus resulting in mixed data. If you’re working with historic data, be extremely careful with your dates!
 
+For historical dates, it is best practice to follow the advice for separating dates into components above and use a numerical value that is positive or negative depending on the era. For dates that are before the Common Era (often abbreviated as B.C.E/BCE, or older nomenclature as B.C./BC), the years should be  represented as negative values, while dates after 0 (abbreviated CE/C.E. or AD/A.D.) should be represented as positive values. For example, the date of March 15, 44 BCE in `Day`, `Month`, and `Year` columns could look like: `15`,`3`,`-44`.
+
+
 {% include links.md %}
