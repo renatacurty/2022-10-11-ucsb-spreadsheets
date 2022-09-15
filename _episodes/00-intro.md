@@ -36,6 +36,8 @@ In this lesson, we’re going to talk about:
 
 ### Spreadsheet programs
 
+Spreadsheet applications cab be handy for data entry and organization. Spreadsheets are frequently the go to tool for collecting and organizing data, which is among the simplest of its uses. Information can easily be placed in neat columns and rows and then sorted by information type. Generally speaking, they require minimal training and allow you to produce datasets that can be easily integrated with other statistical and analytical tools. Also, most databases and survey tools let you export data as spreadsheets. 
+
 Many spreadsheet programs are available and the functionality of these may differ. We chose to work with Google Sheets because it:
 
 - Offers all the basic functionalities we will be exploring during this workshop
