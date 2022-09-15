@@ -15,6 +15,13 @@ When you have a well-structured data table, you can use several simple
 techniques within your spreadsheet to ensure the data you enter is
 free of errors. 
 
+## Spreadsheet Encoding
+
+One issue you may encounter when dealing with Spreadsheets is files with different encoding. As with other text files, a CSV file has a character encoding that determines how characters are stored. The de facto standard today is to use Unicode (UTF-8), which supports all the alphabets of the world and lots of other characters like technical symbols and emojis. Unfortunately, Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having excel automatically open it), you can have unreadable data, and even possible data corruption. To overcome these issues, Wwen you import a file into Google Sheets it automatically converts the contents to UTF-8, as are any downloaded sheets.
+
+
+
+
 ## Validating data on input
 
 When we input data into a cell of a spreadsheet we are typically not constrained in the type of data we enter.
