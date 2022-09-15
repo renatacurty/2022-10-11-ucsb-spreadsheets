@@ -12,6 +12,8 @@ keypoints:
 - "Exporting data from spreadsheets to formats like CSV or TSV puts it in a format that can be used consistently by most programs."
 ---
 
+## A Note on Data Formats
+
 Storing the data you're going to work with for your analyses in the
 default spreadsheet file format (`*.xls` or `*.xlsx`) - isn't a good idea. Why?
 
@@ -51,6 +53,33 @@ To export it as a CSV, choose `file`, then `download` and select the format.
 
 
 ***FIXME*** ADD INFORMATION ABOUT TRACKING HISTORY?
+
+## Working Off-line
+
+There might be cases researchers might be on the field and on remote locations and won't have stable or any connectivity to work with Google Sheets. The good news is that you can turn-on the offline access option to create, view, and edit files. 
+
+*Before you turn on offline access:*
+
+- You must be connected to the internet.
+- You must use the Google Chrome or Microsoft Edge browser.
+- Don't use private browsing.
+- Install and turn on Google Docs Offline Chrome extension.
+- Make sure you have enough available space on your device to save your files.
+
+
+*How to turn on offline access:*
+
+- Open Google Drive.
+- At the top right, click Settings Settings and then Settings.
+- Turn on Offline setting. 
+- If you are using Microsoft Edge, you will be redirected to the Chrome Web Store to download the Google Docs Offline extension.
+- To work offline, open Google Sheets. 
+
+> ## Tips for working offline
+> You can turn on offline access from Sheets settings. If you turn on offline access for Sheets, all then Docs, Slides will also be available offline.
+> Alternatively, to turn on offline access, open any spreadsheet. At the top, next to the file title, click See document status Cloud done and then Turn on and then Turn on.
+> If you want to use offline access for another Google Account, make sure you're signed in to the right Chrome or Edge profile. Learn how to switch Chrome profiles. 
+{: .callout}
 
 
 > ## A note on R and `xls`
