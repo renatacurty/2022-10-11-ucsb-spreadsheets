@@ -70,17 +70,17 @@ In these situations we cannot exercise any control in its construction
 or entry of the data within it.
 Nevertheless it is important to be aware of the limitations these data may present, and know how to assess if any problems are present and how to overcome them.
 
-> ## What this lesson will not teach you
+> ## What this lesson will **NOT** teach you
 >
-> - How to do *statistics* in a spreadsheet
-> - How to do *plotting* in a spreadsheet
-> - How to *write code* in spreadsheet programs
+> - How to do *statistics* in a spreadsheet.
+> - How to do *plotting* in a spreadsheet.
+> - How to *write code* in spreadsheet programs.
 >
 > If you're looking to do this, a good reference is
 > [Head First Excel](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694/ref=sr_1_1?ie=UTF8&qid=1491594584&sr=8-1&keywords=head+first+excel), published by O'Reilly.
 {: .callout}
 
-> ## Exercise
+> ## Exercise:
 > - How many people have used spreadsheets in their research?
 > - How many people have accidentally done something that made them
 > frustrated or sad?
@@ -89,13 +89,14 @@ Nevertheless it is important to be aware of the limitations these data may prese
 
 ### Using Spreadsheets for Data Entry and Cleaning
 
-However, there are circumstances where you might want to use a spreadsheet
+We do not advise you use spreadsheet programs to perform data analysis since they are not as robust for that matter. Excel and Google Sheets are mostly two-dimensional, and it limits your ability to incorporate multiple variables at the same time. They are a poor choice for statistical analysis beyond textbook examples, the simplest descriptive statistics, or for more than a very few columns. Also, they do not preserve the data manipulations analysis workflows which are important for reproducibility.  
+
+Still, there are circumstances where you might want to use a spreadsheet
 program to produce “quick and dirty” calculations or figures, and some of
 these features can be used in data cleaning, prior to importation into a
 statistical analysis program. We will show you how to use some features of
 spreadsheet programs to check your data quality along the way and produce
 preliminary summary statistics.
-
 
 In this lesson we're going to talk about:
 
