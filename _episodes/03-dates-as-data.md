@@ -86,9 +86,9 @@ example data collected in January of multiple years with data collected in Febru
 
 > ## Separating dates into components
 >
-> Download and open the [SAFI_dates.xlsx](https://docs.google.com/spreadsheets/d/1NDrKUooHpRQEV0RZyFkRMyMtQ9CtC_xk/edit?usp=sharing&ouid=101311538260511928101&rtpof=true&sd=true) file. This file
+> Download and open the [SAFI-dates.xlsx](https://docs.google.com/spreadsheets/d/1NDrKUooHpRQEV0RZyFkRMyMtQ9CtC_xk/edit?usp=sharing&ouid=101311538260511928101&rtpof=true&sd=true) file. This file
 > contains a subset of the data from the SAFI interviews, including the dates on which the
-> interviews were conducted. Save a copy and rename it with your last name, to ensure we will all be working on our individual copies of the file. 
+> interviews were conducted. Make a copy and rename it with your last name (e.g., SAFI-dates-Curty), to ensure we will all be working on our individual copies of the file. 
 >
 > Choose the tab of the spreadsheet that corresponds to the way you format dates in your
 > location (either day first `DD_MM_YEAR`, or month first `MM_DD_YEAR`).
