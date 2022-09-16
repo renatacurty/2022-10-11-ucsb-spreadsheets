@@ -136,8 +136,8 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 >
 > We're going to take a messy version of the SAFI data and describe how we would clean it up.
 >
-> 1. Download the [messy data](https://ndownloader.figshare.com/files/11502824).
-> 2. Open up the data in a spreadsheet program.
+> 1. Download the [SAFI messy data](https://docs.google.com/spreadsheets/d/1rW_ivWakwSElPUHvZ5AjLSQDMtgweAb5/edit?usp=sharing&ouid=101311538260511928101&rtpof=true&sd=true).
+> 2. Open up the data in Google Sheets and make a copy, renaming it with your last name (e.g., SAFI-messy-Curty), to ensure we all working on our individual copies.
 > 3. Notice that there are two tabs. Two researchers conducted the interviews,
 >    one in Mozambique and the other in Tanzania. They both structured their
 >    data tables in a different way. Now, you're the person in charge of this
