@@ -4,8 +4,10 @@ teaching: 15
 exercises: 10
 questions:
 - "How can we carry out basic quality assurance in spreadsheets?"
+- "How can we track changes on Google Sheets and prevent changes if needed?"
 objectives:
 - "Apply quality assurance techniques to limit incorrect data entry."
+- "Keep track of changes and protect sheets from changes if needed." 
 keypoints:
 - "Always copy your original spreadsheet file and work with a copy so you don't affect the raw data."
 - "Use data validation to prevent accidentally entering invalid data."
@@ -19,7 +21,7 @@ free of errors.
 
 One issue you may encounter when dealing with Spreadsheets is files with different encoding. As with other text files, a CSV file has a character encoding that determines how characters are stored. The de facto standard today is to use Unicode (UTF-8), which supports all the alphabets of the world and lots of other characters like technical symbols and emojis. Unfortunately, Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having excel automatically open it), you can have unreadable data, and even possible data corruption. To overcome these issues, Wwen you import a file into Google Sheets it automatically converts the contents to UTF-8, as are any downloaded sheets.
 
-
+**FIXME ADD EXAMPLE**
 
 
 ## Validating data on input
@@ -117,7 +119,6 @@ enter data into the selected cells. When a cell in this column is selected, a dr
 When you click the arrow, you will be able to select a value from your list.
 If you type a value which is not on the list, you will get an error message. This not only prevents data input errors, but also makes it easier and faster to enter data. 
 
-
 > ## Exercise
 > Apply a new data validation rule to one of the other categorical 
 > columns in this data table. Discuss with the person sitting next
@@ -147,5 +148,38 @@ If you type a value which is not on the list, you will get an error message. Thi
 > data validation rules for each column when you set up your 
 > spreadsheet (i.e. before you enter any data). 
 {: .callout}
+
+
+## Tracking Changes and Protecting Sheets and Cells from Changing
+
+Google Sheets track changes don’t work like Google Docs which have a feature that displays all changes automatically. Instead, you have to track changes using a few other features. Google Sheets allow you to:
+
+- See the history of changes for a cell.
+- See the complete version history of the document.
+- Set up different access permissions.
+- Protect sheets or data ranges from changes.
+- Set up to receive notifications when changes occur.
+
+Most of these features however, will be only enabled if the spreadsheet is native, or if the file is saved as Google Sheets. This means that some of the functions won't work if you open a .xls or .csv file you have uploaded to your drive. So, make sure, to check whether under `File`, you have the option `Save as Google Sheets`. If so, make sure to save it. In the next episode we will learn how to transform the file to other formats. 
+
+### Seeing the history of changes for a cell
+
+If you wish to inspect updates within a cell you may select the cell, then right-click `show edit history`. The information regarding the last editing action will be displayed and you can use the arrows to navigate the all history of edits for that specific cell. 
+
+### Seeing the complete version history of the document
+
+You may also check version histories for the entire document by either clicking on the `Last edit` info displayed right next to `Help` on the top menu, or `File` then `Version History` and `See version histroy`. You can name versions to keep better track of the history. Note that this won't change the file name!
+
+### Setting up different permissions
+
+### Protecting Sheets and Ranges
+
+### Setting up to get notifications about changes
+
+
+
+
+
+
 
 {% include links.md %}
