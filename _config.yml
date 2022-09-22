@@ -107,7 +107,7 @@ cc_by_human: "https://creativecommons.org/licenses/by/4.0/"
 
 # Surveys.
 pre_survey: "https://ucsb.co1.qualtrics.com/jfe/form/SV_7ZDFsbiPjh0nsyy"
-post_survey: https://ucsb.co1.qualtrics.com/jfe/form/SV_bBF1XEKfmqXHM5E"
+post_survey: "https://ucsb.co1.qualtrics.com/jfe/form/SV_bBF1XEKfmqXHM5E"
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
 start_time: 570
