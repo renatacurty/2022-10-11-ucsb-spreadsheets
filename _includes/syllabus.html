@@ -43,12 +43,16 @@
       {% if multiday %}<td class="col-md-1">{% if episode.start %}Day {{ day }}{% endif %}</td>{% endif %}
       <td class="{% if multiday %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>
       <td class="col-md-3">
-        {% assign lesson_number = lesson_number | plus: 1 %}
+        {% if episode.break %}
+          Break
+        {% else %}
+          {% assign lesson_number = lesson_number | plus: 1 %}
 	{{ lesson_number }}. <a href="{{ relative_root_path }}{{ episode.url }}">{{ episode.title }}</a>
+        {% endif %}
       </td>
       <td class="col-md-7">
         {% if episode.break %}
-          Break
+          
         {% else %}
           {% if episode.questions %}
             {% for question in episode.questions %}
