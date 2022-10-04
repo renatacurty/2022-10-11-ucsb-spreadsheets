@@ -13,60 +13,18 @@
 >
 > #### About the data
 >
-> For more information about the dataset and to
-> download it from Figshare, check out the [Social Sciences workshop data
-> page](http://www.datacarpentry.org/socialsci-workshop/data).
+> For more information about the dataset and to download it from Figshare, check
+> out the [Social Sciences workshop data
+> page](http://www.datacarpentry.org/socialsci-workshop/data). 
 {: .prereq}
 
 > ## Software
 >
-> To interact with spreadsheets, we can use [LibreOffice](https://www.libreoffice.org/), 
-> Microsoft Excel, [Gnumeric](http://www.gnumeric.org/), 
-> [Onlyoffice](https://www.onlyoffice.com/), [WPS office](https://www.wps.com/) 
-> or other programs. Commands may differ a bit between programs, but
-> the general ideas for thinking about spreadsheets are the same.
->
-> For this lesson, if you don't have a spreadsheet program already, you can use
-> LibreOffice. It's a free, open source spreadsheet program.
->
-> macOS users who use Apple's Numbers application should note that it does not
-> contain some of the features (particularly data validation) that we will
-> be using. Please use LibreOffice or Microsoft Excel instead.
->
-> #### Windows
->
-> - Download the Installer
-> - Install LibreOffice by going to [the installation
->   page](https://www.libreoffice.org/download/libreoffice-fresh/). The version
->   for Windows should automatically be selected. Click Download Version X.X.X
->   (whichever is the most recent version).
-> - Install LibreOffice
-> - Once the installer is downloaded, double click on it and LibreOffice should
->   install.
->
-> #### macOS
->
-> - Download the Installer
->  - Install LibreOffice by going to [the installation
->    page](https://www.libreoffice.org/download/libreoffice-fresh/). The version
->    for Mac should automatically be selected. Click Download Version X.X.X
->    (whichever is the most recent version).
-> - Install LibreOffice
-> - Once the installer is downloaded, double click on it and LibreOffice should
->   install.
->
-> #### Linux
->
-> - Download the Installer
-> - Install LibreOffice by going to [the installation
->   page](https://www.libreoffice.org/download/libreoffice-fresh/). The version
->   for Linux should automatically be selected. Click Download Version X.X.X
->   (whichever is the most recent version).
-> - Install LibreOffice
-> - Once the installer is downloaded, double click on it and LibreOffice should
->   install.
-> - package manager option:
->   - pacman (Arch): `pacman -S libreoffice`
->   - yum (Fedora, CentOS): `yum install libreoffice`
->   - apt (Debian, Ubuntu): `apt install libreoffice`
+> We will be use [Google Sheets](http://sheets.google.com/) in this workshop,
+> however you may prefer to install a separate desktop application. To interact
+> with spreadsheets, we can use [LibreOffice](https://www.libreoffice.org/),
+> Microsoft Excel, [Gnumeric](http://www.gnumeric.org/),
+> [Onlyoffice](https://www.onlyoffice.com/), [WPS office](https://www.wps.com/)
+> or other programs. Commands may differ a bit between programs, but the general
+ideas for thinking about spreadsheets are the same. 
 {: .prereq}
